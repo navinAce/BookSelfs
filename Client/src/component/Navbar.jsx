@@ -28,7 +28,7 @@ const Navbar = () => {
                     <li><NavLink to="" className={({isActive})=>`${isActive?"text-lime-400":"text-gray-200"} ml-4 hover:text-gray-400` }>Listed Books</NavLink></li>
                     <li><NavLink to="/add" className={({isActive})=>`${isActive?"text-lime-400":"text-gray-200"}  hover:text-gray-400` }>Add Books</NavLink></li>
                     <li><NavLink to="/update" className={({isActive})=>`${isActive?"text-lime-400":"text-gray-200"}  hover:text-gray-400` }>Update Books</NavLink></li>
-                    <li><NavLink to="delete" className={({isActive})=>`${isActive?"text-lime-400":"text-gray-200"}  hover:text-gray-400`}>Delete Books</NavLink></li>
+                    <li><NavLink to="/delete" className={({isActive})=>`${isActive?"text-lime-400":"text-gray-200"}  hover:text-gray-400`}>Delete Books</NavLink></li>
                 </ul>
             </div>
         </nav>
